@@ -2,9 +2,9 @@ import os
 import re
 import shutil
 
-video_directory = '/home/vatsal/PycharmProjects/VideoFilter/orig_count_videos'
-destination_directory = '/home/vatsal/PycharmProjects/VideoFilter/24-05-2023'
-video_list_file = '/home/vatsal/PycharmProjects/VideoFilter/time_stamp.txt'
+video_directory = './orig_count_videos'
+destination_directory = './24-05-2023'
+video_list_file = 'time_stamp.txt'
 timestamp_pattern = r"\d{4}-\d{2}-\d{2}-\d{2}"
 with open(video_list_file, 'r') as file:
     video_list = file.read().splitlines()
